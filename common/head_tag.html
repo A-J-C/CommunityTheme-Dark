@@ -1,0 +1,19 @@
+<!---------------
+-- CHANGE LOGO --
+----------------->
+
+<script type="text/discourse-plugin" version="0.8.18">
+    api.reopenWidget("home-logo", {
+        logoUrl() {
+            return settings.theme_uploads.logo_dark_mode;
+        },
+        
+        smallLogoUrl() {
+            return settings.theme_uploads.logo_dark_mode_small;
+        },
+        
+        mobileLogoUrl() {
+            return settings.theme_uploads.logo_dark_mode_small;
+        }
+    });
+</script>
