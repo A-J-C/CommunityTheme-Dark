@@ -1,0 +1,151 @@
+.btn:active .d-icon {
+    background-color: inherit !important;
+}
+
+.category-box::after {
+    background-color: #64edc0;
+}
+
+.category-boxes .category-box .logo.aspect-image img,
+.category-boxes-with-topics .category-box .logo.aspect-image img {
+    filter: invert(1);
+}
+
+.custom-footer .footer-section-link-wrapper a,
+.custom-footer .list span,
+.header-buttons .custom-header-links .headerLink a,
+.select-kit.combo-box.category-chooser .select-kit-row .category-desc {
+    color: inherit;
+}
+
+.badge-notification,
+.btn-danger,
+.btn-danger:hover,
+.btn-danger .d-icon,
+.custom-footer .d-icon:hover,
+.d-header-icons .d-icon,
+.discourse-no-touch .btn-primary:hover,
+.discourse-no-touch .btn-primary.btn-hover,
+.discourse-no-touch .btn-primary:hover .d-icon,
+.discourse-no-touch .btn-primary.btn-hover .d-icon,
+.user-secondary-navigation .nav-stacked a:hover {
+    color: #f6f6f6;
+}
+
+.btn:active,
+.btn.btn-active,
+.btn:active .d-icon,
+.btn.btn-active .d-icon {
+    background-color: #333;
+    background-image: none;
+    color: #f6f6f6;
+}
+
+.btn:hover,
+.btn[href]:hover {
+    background-color: var(--tertiary-low);
+}
+
+.btn-danger:focus,
+.btn-danger:focus .d-icon {
+    color: inherit;
+}
+
+.btn-primary:hover .d-icon,
+.btn-primary:active .d-icon,
+.btn-primary:focus .d-icon,
+.btn-primary .d-icon {
+    background: inherit !important;
+}
+
+.custom-footer .list span,
+.custom-footer .footer-section-link-wrapper a {
+    color: #aaa;
+}
+
+.discourse-no-touch .btn-primary:hover:disabled,
+.discourse-no-touch .btn-primary:disabled {
+    color: #000;
+}
+
+.discourse-no-touch .btn:hover .d-icon,
+.discourse-no-touch .btn.btn-hover .d-icon,
+.discourse-no-touch .btn-danger:hover,
+.discourse-no-touch .btn-danger.btn-hover,
+.discourse-no-touch .btn:hover,
+.discourse-no-touch .btn.btn-hover {
+    color: #f6f6f6;
+}
+
+.discourse-no-touch .d-header-icons .icon:hover,
+.discourse-no-touch .d-header-icons .icon:focus {
+    background: inherit;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover .d-icon,
+.btn-primary:active .d-icon,
+.btn-primary:focus .d-icon {
+    background: var(--tertiary-low);
+    color: white;
+}
+
+.topic-admin-popup-menu .btn:hover,
+.topic-admin-popup-menu .btn:hover .d-icon,
+.post-admin-menu .btn:hover,
+.post-admin-menu .btn:hover .d-icon {
+    background: #222;
+}
+
+.names span a,
+.names .fa,
+.moderator .clearfix > .topic-meta-data > .names span.user-title,
+.user-main .staff-counters > div,
+.user-main .staff-counters > div a {
+    color: white !important;
+}
+
+@keyframes background-fade-highlight {
+    0% {
+        background-color: #555;
+    }
+    100% {
+        background-color: var(--header_background);
+    }
+}
+
+#banner {
+    background: repeating-linear-gradient(135deg, #141c3a 40%, #000 60%),
+        repeating-linear-gradient(45deg, #141c3a 42%, #000 60%);
+    background-size: 12px 18px;
+    background-position: 0 0;
+}
+
+#welcome-message a:link,
+#welcome-message a:hover,
+#welcome-message a:visited,
+#welcome-message a:active,
+.arrow-svg {
+    color: #d7fffe;
+}
+
+.badge-card.large .badge-contents,
+.badge-group-list .badge-contents {
+    background: inherit;
+}
+
+.button-count.has-pending span,
+.badge-notification:hover {
+    color: #f6f6f6;
+}
+
+.bootbox.modal .modal-footer a.btn-primary:hover {
+    color: inherit;
+}
+
+.post-controls .extra-buttons .accepted .d-button-label,
+.post-controls .extra-buttons .accepted .d-icon {
+    color: var(--success-hover);
+}
