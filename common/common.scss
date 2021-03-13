@@ -1,10 +1,3 @@
-input, 
-.d-editor-textarea-wrapper,
-.select-kit.combo-box .select-kit-header,
-#reply-control .mini-tag-chooser {
-    background: inherit;
-}
-
 .btn:active .d-icon {
     background-color: inherit !important;
 }
@@ -68,6 +61,13 @@ input,
 .custom-footer .list span,
 .custom-footer .footer-section-link-wrapper a {
     color: #aaa;
+}
+
+.d-editor-textarea-wrapper,
+.select-kit.combo-box .select-kit-header,
+#reply-control .mini-tag-chooser,
+#reply-control #reply-title {
+    background: inherit;
 }
 
 .discourse-no-touch .btn-primary:hover:disabled,
