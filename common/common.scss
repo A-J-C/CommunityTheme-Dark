@@ -1,3 +1,8 @@
+a:hover, 
+a:visited {
+    color: var(--cc-link-colour-hover);
+}
+
 .btn:active .d-icon {
     background-color: inherit !important;
 }
@@ -68,6 +73,11 @@
 #reply-control .mini-tag-chooser,
 #reply-control #reply-title {
     background: inherit;
+}
+
+.d-editor-textarea-wrapper.in-focus {
+    border-color: var(--tertiary-low);
+    outline: none;
 }
 
 .discourse-no-touch .btn-primary:hover:disabled,
