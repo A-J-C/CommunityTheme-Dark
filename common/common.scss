@@ -1,3 +1,7 @@
+.badge-notification.new-topic::before {
+    background: var(--tertiary);
+}
+
 .btn:active .d-icon {
     background-color: inherit !important;
 }
@@ -106,6 +110,10 @@
 .post-admin-menu .btn:hover,
 .post-admin-menu .btn:hover .d-icon {
     background: #222;
+}
+
+.nav-pills>li a.active:hover {
+    color: var(--secondary);
 }
 
 .nav-pills>li>a:hover {
