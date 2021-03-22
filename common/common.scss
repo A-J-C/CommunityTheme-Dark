@@ -75,14 +75,15 @@
     color: #000;
 }
 
-.discourse-no-touch .btn:hover .d-icon,
-.discourse-no-touch .btn.btn-hover .d-icon,
 .discourse-no-touch .btn-danger:hover,
 .discourse-no-touch .btn-danger.btn-hover,
 .discourse-no-touch .btn:hover,
 .discourse-no-touch .btn.btn-hover {
-    color: #f6f6f6;
     background: var(--tertiary-hover);
+    
+    &, & .d-icon {
+        color: #f6f6f6;
+    }
 }
 
 .discourse-no-touch .d-header-icons .icon:hover,
