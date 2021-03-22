@@ -82,6 +82,7 @@
 .discourse-no-touch .btn:hover,
 .discourse-no-touch .btn.btn-hover {
     color: #f6f6f6;
+    background: var(--tertiary-hover);
 }
 
 .discourse-no-touch .d-header-icons .icon:hover,
@@ -104,6 +105,14 @@
 .post-admin-menu .btn:hover,
 .post-admin-menu .btn:hover .d-icon {
     background: #222;
+}
+
+.nav-pills>li>a:hover {
+    color: inherit;
+}
+
+.user-stream .notification.unread {
+    color: 
 }
 
 .names span a,
