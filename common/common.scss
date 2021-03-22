@@ -171,11 +171,3 @@
 .post-controls .extra-buttons .accepted .d-icon {
     color: var(--success-hover);
 }
-
-.hljs-keyword, .javascript .hljs-title, .nginx .hljs-title, .hljs-subst, .hljs-request, .hljs-status {
-    color: var(--cc-code-keyword);
-}
-
-.hljs-title, .hljs-name, .coffeescript .hljs-params, .scss .hljs-meta {
-    color: var(--cc-code-title);
-}
