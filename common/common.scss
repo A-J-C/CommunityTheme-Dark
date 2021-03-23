@@ -1,5 +1,7 @@
 a.toggle-preview,
-#reply-control .reply-to .composer-action-title .topic-link {
+#reply-control .reply-to .composer-action-title .topic-link,
+#reply-control .reply-to .composer-action-title .user-link,
+#reply-control .reply-to .composer-action-title .post-link {
     color: var(--cc-link-colour);
 
     &:hover {
@@ -201,7 +203,8 @@ input[type='color']:focus,
     background-position: 0 0;
 }
 
-#reply-control .save-or-cancel button, #reply-control .save-or-cancel .btn-primary:hover {
+#reply-control .save-or-cancel button,
+#reply-control .save-or-cancel .btn-primary:hover {
     background: var(--tertiary-hover);
 }
 
