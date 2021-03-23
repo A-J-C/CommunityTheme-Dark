@@ -84,8 +84,9 @@
 .discourse-no-touch .btn:hover,
 .discourse-no-touch .btn.btn-hover {
     background: var(--tertiary-hover);
-    
-    &, & .d-icon {
+
+    &,
+    & .d-icon {
         color: #f6f6f6;
     }
 }
@@ -112,11 +113,11 @@
     background: #222;
 }
 
-.nav-pills>li a.active:hover {
+.nav-pills > li a.active:hover {
     color: var(--secondary);
 }
 
-.nav-pills>li>a:hover {
+.nav-pills > li > a:hover {
     color: inherit;
 }
 
@@ -166,8 +167,16 @@
     color: inherit;
 }
 
-.fa.accepted, 
+.fa.accepted,
 .post-controls .extra-buttons .accepted .d-button-label,
 .post-controls .extra-buttons .accepted .d-icon {
     color: var(--success-hover);
+}
+
+.d-editor-textarea-wrapper.in-focus,
+.select-kit.single-select.is-expanded .select-kit-header:not(.btn),
+.select-kit.single-select .select-kit-header:not(.btn):focus,
+.select-kit.single-select .select-kit-header:not(.btn):active {
+    border-color: var(--tertiary-hover);
+    outline-color: var(--tertiary-hover);
 }
