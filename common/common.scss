@@ -68,11 +68,10 @@ input[type='color']:focus,
     color: #f6f6f6;
 }
 
-
 .bootbox.modal .modal-footer a.btn-primary:hover {
     color: inherit;
 }
-ß
+
 .btn:active,
 .btn.btn-active,
 .btn:active .d-icon,
@@ -94,7 +93,10 @@ input[type='color']:focus,
 
 .btn-primary:hover,
 .btn-primary:active,
-.btn-primary:focus {
+.btn-primary:focus,
+.btn-primary:hover .d-icon,
+.btn-primary:active .d-icon,
+.btn-primary:focus .d-icon {
     background: var(--tertiary-low);
     color: white;
 }
@@ -104,7 +106,6 @@ input[type='color']:focus,
 .btn-primary:focus .d-icon,
 .btn-primary .d-icon {
     background: inherit !important;
-    color: white;
 }
 
 .custom-footer .list span,
