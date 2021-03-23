@@ -1,4 +1,5 @@
-a.toggle-preview {
+a.toggle-preview,
+#reply-control .reply-to .composer-action-title .topic-link {
     color: var(--cc-link-colour);
 
     &:hover {
