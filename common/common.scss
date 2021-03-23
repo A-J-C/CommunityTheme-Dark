@@ -192,5 +192,5 @@ input[type='search']:focus,
 input[type='tel']:focus,
 input[type='color']:focus {
     border-color: var(--cc-link-colour);
-    outline-color: var(--cc-link-colour);
+    outline: 1px solid var(--cc-link-colour);
 }
