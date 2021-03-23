@@ -1,3 +1,11 @@
+a.toggle-preview {
+    color: var(--cc-link-colour);
+
+    &:hover {
+        color: var(--cc-link-colour-hover);
+    }
+}
+
 input[type='text']:focus,
 input[type='password']:focus,
 input[type='datetime']:focus,
@@ -190,6 +198,10 @@ input[type='color']:focus,
         repeating-linear-gradient(45deg, #141c3a 42%, #000 60%);
     background-size: 12px 18px;
     background-position: 0 0;
+}
+
+#reply-control .save-or-cancel button, #reply-control .save-or-cancel .btn-primary:hover {
+    background: var(--tertiary-hover);
 }
 
 #welcome-message a:link,
