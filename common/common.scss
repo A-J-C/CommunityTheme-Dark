@@ -1,3 +1,25 @@
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='datetime']:focus,
+input[type='datetime-local']:focus,
+input[type='date']:focus,
+input[type='month']:focus,
+input[type='time']:focus,
+input[type='week']:focus,
+input[type='number']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='search']:focus,
+input[type='tel']:focus,
+input[type='color']:focus,
+.d-editor-textarea-wrapper.in-focus,
+.select-kit.single-select.is-expanded .select-kit-header:not(.btn),
+.select-kit.single-select .select-kit-header:not(.btn):focus,
+.select-kit.single-select .select-kit-header:not(.btn):active.accepted {
+    border-color: var(--cc-link-colour);
+    outline: 1px solid var(--cc-link-colour);
+}
+
 .badge-notification.new-topic::before {
     background: var(--tertiary);
 }
@@ -36,6 +58,21 @@
     color: #f6f6f6;
 }
 
+.badge-card.large .badge-contents,
+.badge-group-list .badge-contents {
+    background: inherit;
+}
+
+.badge-notification:hover,
+.button-count.has-pending span {
+    color: #f6f6f6;
+}
+
+
+.bootbox.modal .modal-footer a.btn-primary:hover {
+    color: inherit;
+}
+ß
 .btn:active,
 .btn.btn-active,
 .btn:active .d-icon,
@@ -55,11 +92,19 @@
     color: inherit;
 }
 
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background: var(--tertiary-low);
+    color: white;
+}
+
 .btn-primary:hover .d-icon,
 .btn-primary:active .d-icon,
 .btn-primary:focus .d-icon,
 .btn-primary .d-icon {
     background: inherit !important;
+    color: white;
 }
 
 .custom-footer .list span,
@@ -96,14 +141,10 @@
     background: inherit;
 }
 
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:focus,
-.btn-primary:hover .d-icon,
-.btn-primary:active .d-icon,
-.btn-primary:focus .d-icon {
-    background: var(--tertiary-low);
-    color: white;
+.fa.accepted,
+.post-controls .extra-buttons .accepted .d-button-label,
+.post-controls .extra-buttons .accepted .d-icon {
+    color: var(--success-hover);
 }
 
 .topic-admin-popup-menu .btn:hover,
@@ -129,6 +170,11 @@
     color: white !important;
 }
 
+.open .grippie,
+#reply-control .save-or-cancel .btn-primar {
+    background: var(--cc-link-colour);
+}
+
 @keyframes background-fade-highlight {
     0% {
         background-color: #555;
@@ -151,46 +197,4 @@
 #welcome-message a:active,
 .arrow-svg {
     color: #d7fffe;
-}
-
-.badge-card.large .badge-contents,
-.badge-group-list .badge-contents {
-    background: inherit;
-}
-
-.button-count.has-pending span,
-.badge-notification:hover {
-    color: #f6f6f6;
-}
-
-.bootbox.modal .modal-footer a.btn-primary:hover {
-    color: inherit;
-}
-
-.fa.accepted,
-.post-controls .extra-buttons .accepted .d-button-label,
-.post-controls .extra-buttons .accepted .d-icon {
-    color: var(--success-hover);
-}
-
-.d-editor-textarea-wrapper.in-focus,
-.select-kit.single-select.is-expanded .select-kit-header:not(.btn),
-.select-kit.single-select .select-kit-header:not(.btn):focus,
-.select-kit.single-select .select-kit-header:not(.btn):active.accepted,
-input[type='text']:focus,
-input[type='password']:focus,
-input[type='datetime']:focus,
-input[type='datetime-local']:focus,
-input[type='date']:focus,
-input[type='month']:focus,
-input[type='time']:focus,
-input[type='week']:focus,
-input[type='number']:focus,
-input[type='email']:focus,
-input[type='url']:focus,
-input[type='search']:focus,
-input[type='tel']:focus,
-input[type='color']:focus {
-    border-color: var(--cc-link-colour);
-    outline: 1px solid var(--cc-link-colour);
 }
