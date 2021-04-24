@@ -215,3 +215,19 @@ input[type='color']:focus,
 .arrow-svg {
     color: #d7fffe;
 }
+
+.cooked h1:hover a.anchor:before,
+.cooked h2:hover a.anchor:before,
+.cooked h3:hover a.anchor:before,
+.cooked h4:hover a.anchor:before,
+.cooked h5:hover a.anchor:before,
+.cooked h6:hover a.anchor:before,
+.d-editor-preview h1:hover a.anchor:before,
+.d-editor-preview h2:hover a.anchor:before,
+.d-editor-preview h3:hover a.anchor:before,
+.d-editor-preview h4:hover a.anchor:before,
+.d-editor-preview h5:hover a.anchor:before,
+.d-editor-preview h6:hover a.anchor:before {
+    filter: invert(1);
+    margin-left: -30px;
+}
