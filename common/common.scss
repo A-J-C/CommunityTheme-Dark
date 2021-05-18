@@ -208,14 +208,6 @@ input[type='color']:focus,
     background: var(--tertiary-hover);
 }
 
-#welcome-message a:link,
-#welcome-message a:hover,
-#welcome-message a:visited,
-#welcome-message a:active,
-.arrow-svg {
-    color: #d7fffe;
-}
-
 .cooked h1:hover a.anchor:before,
 .cooked h2:hover a.anchor:before,
 .cooked h3:hover a.anchor:before,
