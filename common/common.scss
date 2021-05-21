@@ -40,7 +40,7 @@ input[type='color']:focus,
 }
 
 .category-box::after {
-    background-color: #64edc0;
+    background-color: var(--cc-link-colour);
 }
 
 .category-boxes .category-box .logo.aspect-image img,
