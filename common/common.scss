@@ -196,13 +196,6 @@ input[type='color']:focus,
     }
 }
 
-#banner {
-    background: repeating-linear-gradient(135deg, #141c3a 40%, #000 60%),
-        repeating-linear-gradient(45deg, #141c3a 42%, #000 60%);
-    background-size: 12px 18px;
-    background-position: 0 0;
-}
-
 #reply-control .save-or-cancel button,
 #reply-control .save-or-cancel .btn-primary:hover {
     background: var(--tertiary-hover);
